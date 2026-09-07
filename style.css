@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.topbar {
+   width:100%;
+   height:40px;
+   background-color:green;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 14px;
+}
+.topbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: green;
+    width: 100px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 15px 30px;
+    gap: 30px;
+    height:75px;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0077b6;
+}
+
+.right-menu{
+    display: flex;
+    align-items:center;
+    gap:15px;
+    
+}
+
+
+.search-box{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: black;
+    margin-left: auto;
+    gap:20px;
+    width:220px;
+    height:40px;
+}
+
+
+.account-box{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    color: black;   
+    width:220px;
+    height:40px;
+    justify-content: end;
+
+}
+.account-box a{
+    color:blue;
+}
+.account-box{
+    margin-right:30px;
+
+
+}
+
+
+
+.card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: black;
+}
+.card a{
+    color:blue;
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    width: 100%;
+    height: 300px;
+    color: green;
+    font-weight: bold;
+    justify-content:space-around;
+    box-sizing: border-box;
+}
+.offer-image {
+    width: 45%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.offer-image img{
+    width:70%;
+    height:220px;
+
+}
+.offer-text {
+    flex: 1;
+}
+
+.offer-text h2 {
+    margin-bottom: 10px;
+}
+
+
+
+.offer-text p {
+    margin-bottom: 15px;
+}
+
+
+.offer button {
+    padding: 5px;
+    background-color: #073b4c;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+label{
+    gap:20px;
+}
+
+select {
+    width: 150px;
+    padding: 8px;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+h1{
+    margin-top: 20px;
+}
+
+
+.Products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 10px;
+}
+
+
+.product {
+    border: 1px solid burlywood;
+    border-radius: 12px;
+    padding: 15px;
+    background-color: white;
+}
+
+.product img {
+    width: 200px;
+    height: 220px;
+    object-fit:contain;
+    display: block;
+    margin: auto;
+}
+
+.product h1,
+.product p {
+    margin-left: 20px;
+}
+.product button{
+    background-color: #1f3c88;
+    color:white;
+    border: none;
+    padding:10px 18px;
+    border-radius:5px;
+
+}
+
+.earpodes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin: 10px;
+
+}
+.earpodes button{
+    background-color: #1f3c88;
+    color:white;
+    border: none;
+    padding:10px 18px;
+    border-radius: 5px;
+
+} 
